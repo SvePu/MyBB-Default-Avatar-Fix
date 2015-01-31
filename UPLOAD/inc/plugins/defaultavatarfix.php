@@ -30,7 +30,7 @@ function defaultavatarfix_info()
     return array(
         'name'          => 'MyBB Default Avatar Fix',
         'description'   => 'Simple MyBB 1.8 plugin to fix the blank default avatar in custom themes member menu',
-        'website'       => '',
+        'website'       => 'https://github.com/SvePu/MyBB-Default-Avatar-Fix',
         'author'        => 'SvePu',
         'authorsite'    => 'https://github.com/SvePu',
         'version'       => '0.1',
