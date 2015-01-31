@@ -1,7 +1,7 @@
 <?php
 
 /*
-MyBB Default Avatar Fix Plugin for MyBB v 0.1
+MyBB Default Avatar Fix Plugin v0.1
 Copyright (C) 2015 SvePu
 
 This program is free software: you can redistribute it and/or modify
