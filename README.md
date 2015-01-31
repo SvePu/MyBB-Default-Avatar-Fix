@@ -1,5 +1,5 @@
 # MyBB Default Avatar Fix
-Simple MyBB 1.8 plugin to fix the blank default avatar in custom themes member menu
+Simple MyBB 1.8 plugin to fix the empty default avatar in custom themes member menu
 
 Installation:
 * Download and unzip package
