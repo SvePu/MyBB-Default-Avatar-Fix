@@ -25,11 +25,9 @@ if(!defined("IN_MYBB"))
 
 function defaultavatarfix_info()
 {
-    global $mybb, $db, $lang;
-    
-    return array(
+	return array(
         'name'          => 'MyBB Default Avatar Fix',
-        'description'   => 'Simple MyBB 1.8 plugin to fix the empty default avatar in custom themes member menu',
+        'description'   => 'Simple MyBB 1.8 plugin to fix the blank default avatar in custom themes member menu',
         'website'       => 'https://github.com/SvePu/MyBB-Default-Avatar-Fix',
         'author'        => 'SvePu',
         'authorsite'    => 'https://github.com/SvePu',
@@ -37,17 +35,6 @@ function defaultavatarfix_info()
         'codename'      => 'defaultavatarfix',
         'compatibility' => '18*'
     );
-}
-
-function defaultavatarfix_activate()
-{
-
-}
-
-
-function defaultavatarfix_deactivate()
-{
-
 }
 
 function defaultavatarfix()
@@ -59,5 +46,4 @@ function defaultavatarfix()
 		$mybb->user['avatar'] = $mybb->settings['useravatar'];
 	 }
 }
-$plugins->add_hook("global_start", "defaultavatarfix");
-?>
+$plugins->add_hook("global_intermediate", "defaultavatarfix");
